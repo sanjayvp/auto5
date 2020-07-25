@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstSuite" duration-ms="39552" started-at="2020-07-25T18:23:36Z" finished-at="2020-07-25T18:24:15Z">
+    <groups>
+    </groups>
+    <test name="t1" duration-ms="39552" started-at="2020-07-25T18:23:36Z" finished-at="2020-07-25T18:24:15Z">
+      <class name="com.dice5.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dice5.LoginTests@5d740a0f]" name="setUp" is-config="true" duration-ms="5920" started-at="2020-07-25T18:23:36Z" finished-at="2020-07-25T18:23:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.dice5.LoginTests@5d740a0f]" name="positiveLoginTest" duration-ms="13203" started-at="2020-07-25T18:23:42Z" finished-at="2020-07-25T18:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dice5.LoginTests@5d740a0f]" name="tearDown" is-config="true" duration-ms="819" started-at="2020-07-25T18:23:55Z" finished-at="2020-07-25T18:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dice5.LoginTests -->
+      <class name="com.dice5.HomeTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dice5.HomeTests@214b199c]" name="setUp" is-config="true" duration-ms="5793" started-at="2020-07-25T18:23:56Z" finished-at="2020-07-25T18:24:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProfile()[pri:0, instance:com.dice5.HomeTests@214b199c]" name="verifyProfile" duration-ms="13119" started-at="2020-07-25T18:24:01Z" finished-at="2020-07-25T18:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dice5.HomeTests@214b199c]" name="tearDown" is-config="true" duration-ms="664" started-at="2020-07-25T18:24:15Z" finished-at="2020-07-25T18:24:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dice5.HomeTests -->
+    </test> <!-- t1 -->
+  </suite> <!-- FirstSuite -->
+</testng-results>

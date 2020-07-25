@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstSuite" duration-ms="88626" started-at="2020-07-25T16:59:10Z" finished-at="2020-07-25T17:00:39Z">
+    <groups>
+    </groups>
+    <test name="t1" duration-ms="88626" started-at="2020-07-25T16:59:10Z" finished-at="2020-07-25T17:00:39Z">
+      <class name="com.dice5.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dice5.LoginTests@70b0b186]" name="setUp" is-config="true" duration-ms="4005" started-at="2020-07-25T16:59:10Z" finished-at="2020-07-25T16:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.dice5.LoginTests@70b0b186]" name="positiveLoginTest" duration-ms="83861" started-at="2020-07-25T16:59:14Z" finished-at="2020-07-25T17:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dice5.LoginTests@70b0b186]" name="tearDown" is-config="true" duration-ms="732" started-at="2020-07-25T17:00:38Z" finished-at="2020-07-25T17:00:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dice5.LoginTests -->
+    </test> <!-- t1 -->
+  </suite> <!-- FirstSuite -->
+</testng-results>
